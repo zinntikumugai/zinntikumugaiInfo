@@ -4,6 +4,6 @@
 
 # Service
 
-{% for service in site.data.services.list %}
+{% for service in site.data.service.list %}
 - [ {{ service.name }} ]( {{ service.url | "" }} )
 {% endfor %}
