@@ -55,6 +55,11 @@
             "type": "Exchange",
             "id": "zinntikumugai3",
             "url": "https://wallet.crypto-bridge.org/account/zinntikumugai3"
+        },{
+            "name": "Keybase",
+            "type": "Programming",
+            "id": "zinntikumugai",
+            "url": "https://keybase.io/zinntikumugai"
         }
     ]
 }

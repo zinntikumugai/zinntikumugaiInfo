@@ -30,6 +30,16 @@
                 "name": "Time4VPS",
                 "type": "VPS"
             }
+        },
+        {
+            "name": "ZinntikumugaiServiceStatus",
+            "status": "active",
+            "type": "Service-Status",
+            "url": "https://console.zinntikumugai.com/",
+            "host": {
+                "name": "Github Pages",
+                "type": "WebHosting"
+            }
         }
     ]
 }
