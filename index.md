@@ -5,4 +5,4 @@
 # Service
 {% for service in site.data.services.list %}
 - [{{ service.name }}]({{ service.url | "" }})
-{% endfor}
+{% endfor %}
