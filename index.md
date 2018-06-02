@@ -1,7 +1,8 @@
 # WelCome Zinntikumugai Infomations
 
-{{ site.data.accounts.description | "hoge" }}
-<div id="infomation"></div>
+{{ site.data.infomation.name,ja }} | {{ site.data.infomation.name.en }}
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js">
-<script src="./loader.js">
+# Service
+{% for service in site.data.services.list %}
+- [{{ service.name }}]({{ service.url | "" }})
+{% endfor}
