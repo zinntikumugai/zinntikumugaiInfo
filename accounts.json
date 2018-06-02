@@ -1,0 +1,60 @@
+{
+    "description": "各種アカウント",
+    "list": [
+        {
+            "name": "Twitter",
+            "type": "SNS",
+            "id": "uesitananame55",
+            "url": "https://twitter.com/uesitananame55"
+        },{
+            "name": "Steam",
+            "type": "Game",
+            "id": "zinntikumugai",
+            "url": "https://steamcommunity.com/id/zinntikumugai"
+        },{
+            "name": "Minecraft",
+            "type": "Game",
+            "id": "zinntikumugai"
+        },{
+            "name": "Discord",
+            "type": "VoiceChat",
+            "id": "246834514146361345",
+            "id-str": "zinntikumugai#5464"
+        },{
+            "name": "Github",
+            "type": "Programming",
+            "id": "zinntikumugai",
+            "url": "https://github.com/zinntikumugai"
+        },{
+            "name": "Qiita",
+            "type": "Programming",
+            "id": "zinntikumugai",
+            "url": "https://qiita.com/zinntikumugai"
+        },{
+            "name": "Mastodon - mstdn.jp",
+            "type": "SNS",
+            "id": "zinntikumugai",
+            "url": "https://mstdn.jp/@zinntikumugai"
+        },
+        {
+            "name": "Mastodon - knzk.me",
+            "type": "SNS",
+            "id": "zinntikumugai",
+            "url": "https://knzk.me/@zinntikumugai"
+        },{
+            "name": "Mastodon - friends.nico",
+            "type": "SNS",
+            "id": "zinntikumugai",
+            "url": "https://friends.nico/@zinntikumugai"
+        },{
+            "name": "Telegram",
+            "type": "SNS",
+            "id": "zinntikumugai"
+        },{
+            "name": "CryptoBridge",
+            "type": "Exchange",
+            "id": "zinntikumugai3",
+            "url": "https://wallet.crypto-bridge.org/account/zinntikumugai3"
+        }
+    ]
+}
