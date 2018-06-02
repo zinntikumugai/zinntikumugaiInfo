@@ -1,0 +1,21 @@
+{
+    "description": "保有ドメイン",
+    "free": [
+        "zinntikumugai.ml",
+        "zurl.ml",
+        "bire.cf",
+        "lohost.cf",
+        "local-host.cf",
+        "peer.ga"
+    ],
+    "toll": [
+        "zinntikumugai.com",
+        "zinntikumugai.xyz",
+        "bitzeny.pw",
+        "bitzenytool.pw",
+        "zurl.pw"
+    ],
+    "ddns": [
+        "zin.f5.si"
+    ]
+}
