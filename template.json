@@ -29,5 +29,19 @@
                 "id": ""
             }
         ]
+    },
+    "service": {
+        "list": [
+            {
+                "name": "",
+                "status": "",
+                "type": "",
+                "url": "",
+                "host": {
+                    "name":"",
+                    "type":""
+                }
+            }
+        ]
     }
 }

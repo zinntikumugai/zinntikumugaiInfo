@@ -1,0 +1,35 @@
+{
+    "description": "提供サービス",
+    "list": [
+        {
+            "name": "人のプール",
+            "status": "active",
+            "type": "Crypt-POW-Pool",
+            "url": "http://mining.zinntikumugai.xyz/",
+            "host": {
+                "name": "ConoHa",
+                "type": "VPS"
+            }
+        },
+        {
+            "name": "BalanceStatusBadge",
+            "status": "active",
+            "type": "Crypto-Balance-Badge",
+            "url": "http://bsb.bitzeny.zinntikumugai.xyz/",
+            "host": {
+                "name": "Time4VPS",
+                "type": "VPS"
+            }
+        },
+        {
+            "name":"ExCrypto",
+            "status": "down",
+            "type": "Twitter-Bot",
+            "url": "https://twitter.com/MultiCryptoEx",
+            "host": {
+                "name": "Time4VPS",
+                "type": "VPS"
+            }
+        }
+    ]
+}

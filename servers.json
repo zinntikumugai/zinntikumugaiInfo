@@ -48,6 +48,19 @@
                         "url": null
                     }
                 ]
+            },{
+                "name": "Time4VPS",
+                "locale": null,
+                "note": "安い",
+                "url": "https://time4vps.eu/",
+                "invitation": "https://billing.time4vps.eu/?affid=2666",
+                "servers": [
+                    {
+                        "name": "bot",
+                        "plan": "XS",
+                        "url": null
+                    }
+                ]
             }
         ]
     },
