@@ -1,0 +1,24 @@
+{
+    "description": "ただのテンプレだよ",
+    "servers": {
+        "name": {
+            "description": "",
+            "list": [
+                {
+                    "name": "",
+                    "locale": "",
+                    "note": "",
+                    "url": "",
+                    "invitation": "",
+                    "servers": [
+                        {
+                            "name": "",
+                            "plan": "",
+                            "url": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
