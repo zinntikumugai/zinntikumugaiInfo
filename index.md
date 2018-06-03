@@ -28,3 +28,12 @@
 
 {% endfor %}
 {% endfor %}
+
+{%
+assign name = "hoge"
+if name != null
+%}
+{{ name }}
+{%
+endif
+%}
