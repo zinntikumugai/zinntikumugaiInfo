@@ -10,16 +10,6 @@
 
 # Serviers
 
-```
-{{ site.data.servers.list }}
-```
 
-{% for server in site.data.servers.list %}
-## {{ server.type }}
-    {$ for s in server.list %}
-### {{ s.name }}
-        {% for sl in s.servers %}
-- {{ sl.name }}
-        {% endfor %}
-    {% endfor %}
-{% endfor %}
+{{ site.data.servers.list }}
+
