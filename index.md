@@ -10,8 +10,8 @@
 
 # Serviers
 
+{% for server in site.data.servers.list %}
+## {{ server.type }}
 
-{% server in site.data.servers.list %}
 {{ server }}
 {% endfor %}
-
