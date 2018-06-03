@@ -16,6 +16,6 @@
 ### {{ s.name }}
 {% for sl in s.list %}
 - {{ sl.name }}
-{% endofor %}
-{% endofor %}
+{% endfor %}
+{% endfor %}
 {% endfor %}
