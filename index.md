@@ -14,7 +14,7 @@
 ## {{ server.type }}
 {$ for s in server.list %}
 ### {{ s.name }}
-{% for sl in s.list %}
+{% for sl in s.servers %}
 - {{ sl.name }}
 {% endfor %}
 {% endfor %}
