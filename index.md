@@ -11,5 +11,7 @@
 # Serviers
 
 
-{{ site.data.servers.list }}
+{{% server in site.data.servers.list %}}
+{{ server }}
+{% endfor %}
 
