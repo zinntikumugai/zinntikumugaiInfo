@@ -32,8 +32,7 @@
 {%
 assign name = "hoge"
 if name != null
-%}
-{{ name }}
-{%
+    name = "ggg"
 endif
 %}
+{{ name }}
