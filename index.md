@@ -28,12 +28,3 @@
 
 {% endfor %}
 {% endfor %}
-
-{%
-assign name = null
-assign url = "http://www.google.com"
-if name == null
-    name = "gg" + url
-endif
-%}
-{{ name }}
