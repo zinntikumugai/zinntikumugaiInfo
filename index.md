@@ -30,9 +30,10 @@
 {% endfor %}
 
 {%
-assign name = "hoge"
-if name != null
-    name = "ggg"
+assign name = null
+assign url = "http://www.google.com"
+if name == null
+    name = "ggg" | append:'(' | append:url | append:')'
 endif
 %}
 {{ name }}
