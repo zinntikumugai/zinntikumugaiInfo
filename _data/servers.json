@@ -2,108 +2,118 @@
     "description": {
         "ja": "保有、管理しているサーバー"
     },
-    "VPS": {
-        "description": "金払って借りてるサーバー",
-        "list": [
-            {
-                "name": "ConoHa",
-                "locale": "Jpan",
-                "note": "このはちゃんかわいい",
-                "url": "https://www.conoha.jp/",
-                "invitation": "https://www.conoha.jp/referral/?token=DyVudaDGGmUExXvChAj.f0UmNU_N4QUbNLbE2UrjJB6MEd.fJPs-ZPH",
-                "servers": [
-                    {
-                        "name": "人のプール",
-                        "plan": "512MB",
-                        "url": "http://mining.zinntikumugai.com"
-                    }
-                ]
-            },{
-                "name": "CloudAtCost",
-                "locale": "Canada",
-                "note": "買い切り,よく落ちる,謎",
-                "url": "http://cloudatcost.com/",
-                "invitation": "DMちょうだいなメルアド教えるぞい",
-                "servers": [
-                    {
-                        "name": "cac1",
-                        "plan": "Developer CloudPRO2",
-                        "url": null
-                    },{
-                        "name": "cac2",
-                        "plan": "Developer CloudPRO1",
-                        "url": null
-                    }
-                ]
-            },{
-                "name": "AlphaRacks",
-                "locale": "US",
-                "note": "安い,そこそこの性能",
-                "url": "https://www.alpharacks.com",
-                "invitation": "https://www.alpharacks.com/myrack/aff.php?aff=1690",
-                "servers": [
-                    {
-                        "name": "alp1",
-                        "plan": "New Website Special - Los Angeles OVZ 1GB",
-                        "url": null
-                    }
-                ]
-            },{
-                "name": "Time4VPS",
-                "locale": null,
-                "note": "安い",
-                "url": "https://time4vps.eu/",
-                "invitation": "https://billing.time4vps.eu/?affid=2666",
-                "servers": [
-                    {
-                        "name": "bot",
-                        "plan": "XS",
-                        "url": null
-                    }
-                ]
-            }
-        ]
-    },
-    "designated": {
-        "description": "専用サーバー",
-        "list": []
-    },
-    "Cloud": {
-        "description": "クラウドサーバー",
-        "list": [
-            {
-                "name": "mixhost",
-                "locale": "Jpan",
-                "note": "Webクラウド",
-                "url": "https://mixhost.jp/",
-                "invitation": null,
-                "servers": [
-                    {
-                        "name": "",
-                        "plan": "クラウドレンタルサーバーv2",
-                        "url": null
-                    }
-                ]
-            }
-        ]
-    },
-    "Physical": {
-        "description": "物理サーバー",
-        "list": [
-            {
-                "name": "rackMount",
-                "locale": "Jpan",
-                "note": "ラックマウントサーバー",
-                "url": null,
-                "invitation": null,
-                "servers": [
-                    {
-                        "name": "鯖",
-                        "plan": null,
-                        "url": null
-                    }
-                ]
-            }
-        ]
-    }
+    "list": [
+        {
+            "type": "VPS",
+            "description": "金払って借りてるサーバー",
+            "list": [
+                {
+                    "name": "ConoHa",
+                    "locale": "Jpan",
+                    "note": "このはちゃんかわいい",
+                    "url": "https://www.conoha.jp/",
+                    "invitation": "https://www.conoha.jp/referral/?token=DyVudaDGGmUExXvChAj.f0UmNU_N4QUbNLbE2UrjJB6MEd.fJPs-ZPH",
+                    "servers": [
+                        {
+                            "name": "人のプール",
+                            "plan": "512MB",
+                            "url": "http://mining.zinntikumugai.com"
+                        }
+                    ]
+                },
+                {
+                    "name": "CloudAtCost",
+                    "locale": "Canada",
+                    "note": "買い切り,よく落ちる,謎",
+                    "url": "http://cloudatcost.com/",
+                    "invitation": "DMちょうだいなメルアド教えるぞい",
+                    "servers": [
+                        {
+                            "name": "cac1",
+                            "plan": "Developer CloudPRO2",
+                            "url": null
+                        },
+                        {
+                            "name": "cac2",
+                            "plan": "Developer CloudPRO1",
+                            "url": null
+                        }
+                    ]
+                },
+                {
+                    "name": "AlphaRacks",
+                    "locale": "US",
+                    "note": "安い,そこそこの性能",
+                    "url": "https://www.alpharacks.com",
+                    "invitation": "https://www.alpharacks.com/myrack/aff.php?aff=1690",
+                    "servers": [
+                        {
+                            "name": "alp1",
+                            "plan": "New Website Special - Los Angeles OVZ 1GB",
+                            "url": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Time4VPS",
+                    "locale": null,
+                    "note": "安い",
+                    "url": "https://time4vps.eu/",
+                    "invitation": "https://billing.time4vps.eu/?affid=2666",
+                    "servers": [
+                        {
+                            "name": "bot",
+                            "plan": "XS",
+                            "url": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "designated",
+            "description": "専用サーバー",
+            "list": []
+        },
+        {
+            "type": "Cloud",
+            "description": "クラウドサーバー",
+            "list": [
+                {
+                    "name": "mixhost",
+                    "locale": "Jpan",
+                    "note": "Webクラウド",
+                    "url": "https://mixhost.jp/",
+                    "invitation": null,
+                    "servers": [
+                        {
+                            "name": "",
+                            "plan": "クラウドレンタルサーバーv2",
+                            "url": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Physical",
+            "description": "物理サーバー",
+            "list": [
+                {
+                    "name": "rackMount",
+                    "locale": "Jpan",
+                    "note": "ラックマウントサーバー",
+                    "url": null,
+                    "invitation": null,
+                    "servers": [
+                        {
+                            "name": "鯖",
+                            "plan": null,
+                            "url": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
