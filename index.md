@@ -10,8 +10,18 @@
 
 # Serviers
 
-{% for server in site.data.servers.list %}
-## {{ server.type }}
+{% for serverType in site.data.servers.list %}
+## {{ serverType.type }}
 
-{{ server }}
+{% for server in serverType.list %}
+- [ {{ server.name}} ]( {{ server.invitation | server.url }} )
+    - Locale：{{ server.locale }}
+    - note：{{ server.note }}
+    - Servers：
+{% for mc in server.servers %}
+        - [ {{ mc.name }} ]
+{% endfor %}
+
+{% endfor %}
+{{ serverType }}
 {% endfor %}
