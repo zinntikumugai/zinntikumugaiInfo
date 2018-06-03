@@ -21,7 +21,7 @@
 {% endif %}
     - Locale：{{ server.locale }}
     - note：{{ server.note }}
-    - Servers： {{ server.servsers.size }}
+    - Servers： {{ size:server.servsers }}
 {% for mc in server.servers %}
         - {{ mc.name }}
 {% endfor %}
