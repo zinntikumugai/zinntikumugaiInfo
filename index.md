@@ -19,7 +19,7 @@
     - note：{{ server.note }}
     - Servers：
 {% for mc in server.servers %}
-        - [ {{ mc.name }} ]
+        - {{ mc.name }}
 {% endfor %}
 
 {% endfor %}
