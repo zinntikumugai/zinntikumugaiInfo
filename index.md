@@ -14,10 +14,14 @@
 ## {{ serverType.type }}
 
 {% for server in serverType.list %}
+{% if server.invitation == null && server.url == null %}
+- {{ server.name }}
+{% else %}
 - [ {{ server.name}} ]( {{ server.invitation | server.url }} )
+{% endif %}
     - Locale：{{ server.locale }}
     - note：{{ server.note }}
-    - Servers：
+    - Servers： {{ server.servsers.size }}
 {% for mc in server.servers %}
         - {{ mc.name }}
 {% endfor %}
