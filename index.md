@@ -14,7 +14,7 @@
 ## {{ serverType.type }}
 
 {% for server in serverType.list %}
-{% if server.invitation == null && server.url == null %}
+{% if server.invitation == null and server.url == null %}
 - {{ server.name }}
 {% else %}
 - [ {{ server.name}} ]( {{ server.invitation | server.url }} )
